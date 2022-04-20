@@ -1,0 +1,100 @@
+<!Doctype html>
+<html lang="en" >
+ <head>
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Summary</title>
+   
+
+    <link href='./project.css' type='text/css' rel='stylesheet' />
+
+
+
+<style>
+   
+  body{
+  background-image: url(honer.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: black;
+  font-size: 21px;
+}
+   
+   
+   div.relative {
+  position: relative;
+ <!--  top: -50px; -->
+ 
+}
+   
+ div{
+ background-color: lightblue;
+ opacity: 0.7;
+ height: 40%;
+ width: 40%;
+  margin: auto;
+  border: 10px outset gray;
+  text-align: center;
+  
+  position: relative;
+  animation: sum;
+  animation-duration: 20s;
+  animation-iteration-count: 10;
+
+ }
+
+@keyframes sum {
+  0%   {background-color:lightblue; left:0px; top: 50px;}
+  20%  {background-color:#d5f4e6; left:0px; top: 40px;}
+  40%  {background-color:#80ced6; left:0px; top: 60px;}
+  60%  {background-color:#fefbd8; left:0px; top: 40px;}
+  80%  {background-color:#618685; left:0px; top: 60px;}
+  100% {background-color:lightblue; left:0px; top: 50px;}
+}
+
+</style>
+
+
+
+
+
+   
+ </head>
+ <body>
+<div class="relative">
+<h1>~Summary~<h1>
+ <h5>Leader's Name- Stefon Glover</h5>
+ <h5>Project Name-15 puzzle</h5>
+ <h5>++++++</h5>
+ <h5>Description-This is a project based on Html, Css, PHP, JavaScript to create this puzzle. The 15 puzzle (also called Gem Puzzle, Boss Puzzle, Game of Fifteen, Mystic Square and many others) is a sliding puzzle having 15 square tiles numbered 1 to 15 in a frame that is 4 tiles high and 4 tiles wide, leaving one unoccupied tile position. </h5>
+ <h5>++++++</h5>
+ <h5>Reason-We chose this project to polish our skills of our previous 15 - puzzle project.</h5>
+ <h5>++++++</h5>
+ <h5>Team Members-
+         <ol>
+		  <li>
+		    Stefon Glover- Coder, Moderator,Powerpoint, Tester
+		  </li>
+		  <li>
+		     Isaiah Chennault - Programmer, co-ordinator,Powerpoint,Tester
+		  </li>
+		  <li>
+		     Olawale Opanuga- Coder,Powerpoint, Quality control, Animator , Tester.
+		  </li>
+		  
+		</ol>
+</h5>
+</div>
+
+
+<audio loop autoplay>
+  <source src="lag.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+
+
+</body>
+
+</html>
